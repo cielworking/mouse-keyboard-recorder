@@ -1,0 +1,43 @@
+# Build output
+bin/
+obj/
+dist/
+build-check/
+*.pdb
+*.mdb
+*.ilk
+*.obj
+*.exp
+*.lib
+*.res
+*.cache
+
+# Diagnostic reports can contain sampled input and cursor coordinates
+selftest.txt
+e2e.txt
+report.txt
+report-*.txt
+*.report.txt
+
+# Local recordings and logs (the app itself does not write recordings)
+recordings/
+*.rec
+logs/
+*.log
+
+# IDE and editor files
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.sln.docstates
+*.DotSettings.user
+
+# OS metadata
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Keep the supplied prebuilt binary tracked
+!SimpleRecorder.exe
